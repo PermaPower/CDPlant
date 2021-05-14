@@ -11,6 +11,7 @@
 		52D0E628264E383B0078A0B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D0E627264E383B0078A0B9 /* ContentView.swift */; };
 		52D0E62A264E383D0078A0B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D0E629264E383D0078A0B9 /* Assets.xcassets */; };
 		52D0E62D264E383D0078A0B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D0E62C264E383D0078A0B9 /* Preview Assets.xcassets */; };
+		52D0E636264E39FC0078A0B9 /* DataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52D0E634264E39FC0078A0B9 /* DataContainer.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		52D0E629264E383D0078A0B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52D0E62C264E383D0078A0B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52D0E62E264E383D0078A0B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D0E635264E39FC0078A0B9 /* DataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataContainer.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				52D0E625264E383B0078A0B9 /* CDPlantApp.swift */,
 				52D0E627264E383B0078A0B9 /* ContentView.swift */,
+				52D0E634264E39FC0078A0B9 /* DataContainer.xcdatamodeld */,
 				52D0E629264E383D0078A0B9 /* Assets.xcassets */,
 				52D0E62E264E383D0078A0B9 /* Info.plist */,
 				52D0E62B264E383D0078A0B9 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D0E636264E39FC0078A0B9 /* DataContainer.xcdatamodeld in Sources */,
 				52D0E628264E383B0078A0B9 /* ContentView.swift in Sources */,
 				52D0E626264E383B0078A0B9 /* CDPlantApp.swift in Sources */,
 			);
@@ -280,7 +284,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.permapower.CDPlant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +306,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.permapower.CDPlant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -328,6 +332,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52D0E634264E39FC0078A0B9 /* DataContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52D0E635264E39FC0078A0B9 /* DataContainer.xcdatamodel */,
+			);
+			currentVersion = 52D0E635264E39FC0078A0B9 /* DataContainer.xcdatamodel */;
+			path = DataContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 52D0E61A264E383B0078A0B9 /* Project object */;
 }
